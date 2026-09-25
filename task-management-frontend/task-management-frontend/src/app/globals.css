@@ -1,0 +1,19 @@
+@import "tailwindcss";
+ 
+@theme {
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+ 
+  --color-ink: #1c1c1a;
+  --color-paper: #faf8f4;
+  --color-evergreen: #006938;
+  --color-evergreen-dark: #004d29;
+  --color-honey: #c9a227;
+  --color-line: #e4e0d6;
+}
+ 
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
